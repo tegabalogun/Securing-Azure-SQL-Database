@@ -55,7 +55,7 @@ Examined Microsoft Defender for SQL’s security recommendations to showcase pro
 <br />
 <br />
 Showed how to use Azure’s Data Classification feature to identify and categorize sensitive data within the database: <br/>
-<img src="images/mail execution"/>
+<img src="images/data classification"/>
 </p>
 
 
