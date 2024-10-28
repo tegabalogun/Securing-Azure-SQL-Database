@@ -39,7 +39,7 @@ Explored network security configurations by hovering over firewall rules and dis
 <br />
 <br />
 Showed how to apply Dynamic Data Masking to sensitive fields (e.g., phone number, email address) to protect data visibility for non-admin users: <br/>
-<img src="images/srorage account"/>
+<img src ="images/data masking"/>
 <br />
 <br />
 Demonstrated how data appears when masked by logging in as a non-admin user and retrieving masked fields: <br/>
