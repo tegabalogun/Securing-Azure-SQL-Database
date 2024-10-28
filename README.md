@@ -31,7 +31,7 @@ Connected to the database from a Virtual Machine to illustrate secure access via
 <br />
 <br />
 Data output from the database: <br/>
-<img src="images/Secure connection to db"/>
+<img src="images/db output"/>
 <br />
 <br />
 Explored network security configurations by hovering over firewall rules and disabling public network access to restrict IP-based access: <br/>
