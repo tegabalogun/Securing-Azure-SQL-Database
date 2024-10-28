@@ -33,7 +33,7 @@ Executed an SQL query to retrieve and display data from the database, showing sa
 <img src="images/sql output"/>
 <br />
 <br />
-Data output from the database: <br/>
+Retrieved and displayed data from the database using an SQL query, showing sample output:<br/>
 <img src="images/db output"/>
 <br />
 <br />
