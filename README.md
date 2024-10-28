@@ -51,7 +51,7 @@ Navigated the auditing settings to demonstrate how logging access and modificati
 <br />
 <br />
 Examined Microsoft Defender for SQL’s security recommendations to showcase proactive threat monitoring and improvement suggestions:  <br/>
-<img src="images/PHP file"/>
+<img src="images/showcasing defender for cloud"/>
 <br />
 <br />
 Showed how to use Azure’s Data Classification feature to identify and categorize sensitive data within the database: <br/>
