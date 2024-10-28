@@ -43,7 +43,7 @@ Showed how to apply Dynamic Data Masking to sensitive fields (e.g., phone number
 <br />
 <br />
 Demonstrated how data appears when masked by logging in as a non-admin user and retrieving masked fields: <br/>
-<img src="images/allow blob access"/>
+<img src="images/masked date"/>
 <br />
 <br />
 Navigated the auditing settings to demonstrate how logging access and modifications can be enabled with custom retention settings:: <br/>
