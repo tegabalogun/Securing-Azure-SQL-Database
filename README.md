@@ -17,16 +17,19 @@ Demonstrated how to secure an Azure SQL Database by showcasing various security 
 <h2>Program Walk-through:</h2>
 
 <p align="center">
-creation of an Azure SQL Server using SQL Server Authentication: <br/>
+Created an Azure SQL Server using SQL Server Authentication: <br/>
 <img src="images/create sql db"/>
 <br />
 <br />
-Showcased how to import a pre-populated database by navigating the Azure Storage container setup and the SQL Server import feature:  <br/>
+Demonstrated how to import a pre-populated database from GitHub using the Azure import feature:  <br/>
 <img src="images/Import db"/>
 <br />
 <br />
 Connected to the database from a Virtual Machine to illustrate secure access via SSH and demonstrate data retrieval: <br/>
 <img src="images/Secure connection to db"/>
+<br />
+<br />
+Executed an SQL query to retrieve and display data from the database, showing sample output:
 <img src="images/sql output"/>
 <br />
 <br />
@@ -34,27 +37,27 @@ Data output from the database: <br/>
 <img src="images/db output"/>
 <br />
 <br />
-Explored network security configurations by hovering over firewall rules and disabling public network access to restrict IP-based access: <br/>
+Configured network security by disabling public network access to restrict exposure, and explored firewall rules for further restrictions: <br/>
 <img src="images/Networing"/>
 <br />
 <br />
-Showed how to apply Dynamic Data Masking to sensitive fields (e.g., phone number, email address) to protect data visibility for non-admin users: <br/>
+Applied Dynamic Data Masking on sensitive fields (e.g., phone number, email) to control data visibility: <br/>
 <img src ="images/data masking"/>
 <br />
 <br />
-Demonstrated how data appears when masked by logging in as a non-admin user and retrieving masked fields: <br/>
+Demonstrated masked data visibility by logging in as a non-admin user and retrieving masked fields: <br/>
 <img src="images/masked date"/>
 <br />
 <br />
-Navigated the auditing settings to demonstrate how logging access and modifications can be enabled with custom retention settings:: <br/>
+Showed the auditing settings, where database access and modification logging can be configured. Added a storage account as the log destination and set authentication to managed identity: <br/>
 <img src="images/auditing"/>
 <br />
 <br />
-Examined Microsoft Defender for SQL’s security recommendations to showcase proactive threat monitoring and improvement suggestions:  <br/>
+Examined Microsoft Defender for SQL options to showcase proactive threat monitoring and recommendations (without enabling the feature):  <br/>
 <img src="images/showcasing defender for cloud"/>
 <br />
 <br />
-Showed how to use Azure’s Data Classification feature to identify and categorize sensitive data within the database: <br/>
+Explored Azure’s Data Classification and Discovery section, demonstrating recommended sensitivity classifications for columns (without applying changes): <br/>
 <img src="images/data classification"/>
 </p>
 
