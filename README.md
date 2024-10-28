@@ -30,7 +30,7 @@ Connected to the database from a Virtual Machine to illustrate secure access via
 <br />
 <br />
 Explored network security configurations by hovering over firewall rules and disabling public network access to restrict IP-based access: <br/>
-<img src="images/landing page"/>
+<img src="images/Networing"/>
 <br />
 <br />
 Showed how to apply Dynamic Data Masking to sensitive fields (e.g., phone number, email address) to protect data visibility for non-admin users: <br/>
