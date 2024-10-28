@@ -22,14 +22,14 @@ creation of an Azure SQL Server using SQL Server Authentication: <br/>
 <br />
 <br />
 Showcased how to import a pre-populated database by navigating the Azure Storage container setup and the SQL Server import feature:  <br/>
-<img src="images/configure port"/>
-<br />
-<br />
-Explored network security configurations by hovering over firewall rules and disabling public network access to restrict IP-based access: <br/>
-<img src="images/landing page"/>
+<img src="images/Import db"/>
 <br />
 <br />
 Connected to the database from a Virtual Machine to illustrate secure access via SSH and demonstrate data retrieval: <br/>
+<img src="images/landing page"/>
+<br />
+<br />
+Explored network security configurations by hovering over firewall rules and disabling public network access to restrict IP-based access: <br/>
 <img src="images/landing page"/>
 <br />
 <br />
