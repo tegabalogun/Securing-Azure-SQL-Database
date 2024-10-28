@@ -17,8 +17,8 @@ Demonstrated how to secure an Azure SQL Database by showcasing various security 
 <h2>Program Walk-through:</h2>
 
 <p align="center">
-Demonstrated the creation of an Azure SQL Server using SQL Server Authentication: <br/>
-<img src="images/create a vm"/>
+creation of an Azure SQL Server using SQL Server Authentication: <br/>
+<img src="images/create sql db"/>
 <br />
 <br />
 Showcased how to import a pre-populated database by navigating the Azure Storage container setup and the SQL Server import feature:  <br/>
