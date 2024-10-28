@@ -27,6 +27,7 @@ Showcased how to import a pre-populated database by navigating the Azure Storage
 <br />
 Connected to the database from a Virtual Machine to illustrate secure access via SSH and demonstrate data retrieval: <br/>
 <img src="images/Secure connection to db"/>
+<img src="images/sql output"/>
 <br />
 <br />
 Explored network security configurations by hovering over firewall rules and disabling public network access to restrict IP-based access: <br/>
