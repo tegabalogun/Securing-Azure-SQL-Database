@@ -47,7 +47,7 @@ Demonstrated how data appears when masked by logging in as a non-admin user and 
 <br />
 <br />
 Navigated the auditing settings to demonstrate how logging access and modifications can be enabled with custom retention settings:: <br/>
-<img src="images/add img tag"/>
+<img src="images/auditing"/>
 <br />
 <br />
 Examined Microsoft Defender for SQL’s security recommendations to showcase proactive threat monitoring and improvement suggestions:  <br/>
