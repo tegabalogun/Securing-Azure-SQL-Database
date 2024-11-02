@@ -1,48 +1,82 @@
-<h1>Windows Server Active Directory Management on Azure</h1>
-
+<h1>Securing Azure SQL Database</h1>
 
 <h2>Description</h2>
-Set up a Windows Server environment on Azure to practice Active Directory (AD) management, network configuration, and policy enforcement. This project highlights the capabilities of AD for centralized network security and administration within a cloud environment.
+Demonstrated how to secure an Azure SQL Database by showcasing various security features, including Dynamic Data Masking, firewall rules, encryption, and role-based access controls. Used Azure Monitor and Defender for SQL to explore options for monitoring database activity and mitigating potential threats. This project highlights best practices for database security and the capabilities of Azure’s built-in security tools.
 
-<h2>Technologies and Tools Used</h2>
-<ul>
-  <li><b>Azure</b> - Virtual Machines, Networking</li>
-  <li><b>Windows Server 2022</b> - Active Directory Domain Services (AD DS), Group Policy Management Console (GPMC)</li>
-  <li><b>Windows 10 Enterprise</b> - Domain-joined client for testing</li>
-</ul>
+<h2>Languages and Utilities Used</h2>
+
+- <b>SQL</b>
+- <b>Azure SQL Database</b>
+- <b>Azure Monitor</b>
+- <b>Azure Defender for SQL</b>
 
 <h2>Environments Used</h2>
-<ul>
-  <li><b>Azure Cloud</b> - Windows Server VM, Windows 10 VM</li>
-</ul>
+
+- <b>Azure Cloud</b> - SQL Server on Azure
 
 <h2>Program Walk-through:</h2>
 
 <p align="center">
-Created Windows Server 2022 VM on Azure for AD setup: <br/>
-<img src="images/create_windows_server_vm"/>
+Created an Azure SQL Server using SQL Server Authentication: <br/>
+<img src="images/create sql db"/>
 <br />
 <br />
-Installed Active Directory Domain Services (AD DS) and promoted the server to a domain controller: <br/>
-<img src="images/install_ad_ds"/>
+Demonstrated how to import a pre-populated database from GitHub using the Azure import feature:  <br/>
+<img src="images/Import db"/>
 <br />
 <br />
-Set up user accounts, groups, and organizational units (OUs) within Active Directory to simulate organizational structure: <br/>
-<img src="images/create_users_groups"/>
+Connected to the database from a Virtual Machine to illustrate secure access via SSH and demonstrate data retrieval: <br/>
+<img src="images/Secure connection to db"/>
 <br />
 <br />
-Configured Group Policy Objects (GPOs) to enforce security policies across the domain, such as password policies: <br/>
-<img src="images/create_gpo"/>
+Executed an SQL query to retrieve and display data from the database, showing sample output:
+<img src="images/sql output"/>
 <br />
 <br />
-Set up file sharing within the AD environment and configured permissions based on group roles: <br/>
-<img src="images/file_sharing"/>
+Retrieved and displayed data from the database using an SQL query, showing sample output:<br/>
+<img src="images/db output"/>
 <br />
 <br />
-Joined a Windows 10 Enterprise VM to the domain to test domain join and policy application: <br/>
-<img src="images/domain_join_windows10"/>
+Configured network security by disabling public network access to restrict exposure, and explored firewall rules for further restrictions: <br/>
+<img src="images/Networing"/>
 <br />
 <br />
-Verified policy application and access permissions by logging in as different users within the domain: <br/>
-<img src="images/policy_application"/>
+Applied Dynamic Data Masking on sensitive fields (e.g., phone number, email) to control data visibility: <br/>
+<img src ="images/data masking"/>
+<br />
+<br />
+Demonstrated masked data visibility by logging in as a non-admin user and retrieving masked fields: <br/>
+<img src="images/masked date"/>
+<br />
+<br />
+Showed the auditing settings, where database access and modification logging can be configured. Added a storage account as the log destination and set authentication to managed identity: <br/>
+<img src="images/auditing"/>
+<br />
+<br />
+Examined Microsoft Defender for SQL options to showcase proactive threat monitoring and recommendations (without enabling the feature):  <br/>
+<img src="images/showcasing defender for cloud"/>
+<br />
+<br />
+Explored Azure’s Data Classification and Discovery section, demonstrating recommended sensitivity classifications for columns (without applying changes): <br/>
+<img src="images/data classification"/>
 </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
