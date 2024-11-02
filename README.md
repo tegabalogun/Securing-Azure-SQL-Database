@@ -1,7 +1,8 @@
 <h1>Windows Server Active Directory Management on Azure</h1>
 
+
 <h2>Description</h2>
-Documented the setup of a Windows Server environment on Azure to practice Active Directory (AD) management, Group Policy configurations, and file sharing permissions. This project highlights the capabilities of AD for network security and centralized management within an Azure-based virtual environment.
+Set up a Windows Server environment on Azure to practice Active Directory (AD) management, network configuration, and policy enforcement. This project highlights the capabilities of AD for centralized network security and administration within a cloud environment.
 
 <h2>Technologies and Tools Used</h2>
 <ul>
