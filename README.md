@@ -26,7 +26,7 @@ Demonstrated how to import a pre-populated database from GitHub using the Azure 
 <br />
 <br />
 Connected to the database from a Virtual Machine to illustrate secure access via SSH and demonstrate data retrieval: <br/>
-<img src="images/Secure connection to db"/>
+<img src="images/connevt to the db"/>
 <br />
 <br />
 Executed an SQL query to retrieve and display data from the database, showing sample output:
