@@ -30,7 +30,7 @@ Connected to the database from a Virtual Machine to illustrate secure access via
 <br />
 <br />
 Executed an SQL query to retrieve and display data from the database, showing sample output:
-<img src="images/sql output"/>
+<img src="images/sql query"/>
 <br />
 <br />
 Retrieved and displayed data from the database using an SQL query, showing sample output:<br/>
